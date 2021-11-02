@@ -7,7 +7,8 @@ trigger:
 - main
 
 pool:
-  vmImage: ubuntu-latest
+  # vmImage: ubuntu-latest
+  name: DESKTOP-91F2MC5
 
 variables:
   buildConfiguration: 'Release'
